@@ -1,7 +1,6 @@
 header {
 	width: 100%;
 	margin: 0 auto;
-	display: flex;
 }
 .header {
 	margin: 0;
@@ -33,39 +32,40 @@ header {
 			justify-content: space-between;
 			color: #444444;
 		}
-		&-links li{
-
-		}
 	}
 	&__contact {
-		width: 100%;
-		margin: 0;
+		width: 600px;
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 		line-height: 0.7;
 		justify-content: flex-end;
-
+		margin-right: 20px;
+		margin-top: 60px;
+		
 		&-mail {
-			width: 180px;
-			height: 45px;
+			width: 200px;
+			height: 35px;
 		}
 		&-phone {
 			width: 180px;
 			height: 45px;
 		}
+		&-text {
+		}
 	}
 	&__btns {
-		width: 100%;
+		width: 400px;
+		margin-top: 72px;
 		height: 200px;
 		flex-wrap: wrap;
 		justify-content: flex-end;
-		&-blue input{
-		background-color: #0067FF;
-		width: 180px;
-		border-radius: 50px;
-		height: 31px;
+		&-blue input {
+			background-color: #0067ff;
+			width: 180px;
+			border: 1px solid #0067ff;
+			border-radius: 50px;
+			height: 31px;
+			color: #fff;
 		}
 	}
-	
-	
 }

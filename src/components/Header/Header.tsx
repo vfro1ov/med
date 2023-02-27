@@ -34,7 +34,12 @@ export const Header: FunctionComponent<HeaderProps> = (props) => {
 								})}
 							</nav>
 						</div>
-						<div className="header__contact">
+					
+					
+						
+						
+					</div>
+					<div className="header__contact">
 							<div className="header__contact-mail">
 								<img src="https://img.icons8.com/ios-filled/1x/secured-letter.png" alt="mail" />
 								<p className="header__contact-text">
@@ -54,9 +59,6 @@ export const Header: FunctionComponent<HeaderProps> = (props) => {
 							</div>
 							<SocialHeader />
 						</div>
-						
-						
-					</div>
 				</div>
 			</header>
 		// </div>

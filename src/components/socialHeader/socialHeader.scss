@@ -1,11 +1,11 @@
 .header__social {
 	width: 200px;
 	height: 100px;
-	// display: inline-block;
+	display: flex;
 }
 .header__social img {
-	margin: 10px;
+	margin: 20px;
 	border: 2px solid black;
 	border-radius:250px;
-	width: 20px;
+	width: 15px;
 }
