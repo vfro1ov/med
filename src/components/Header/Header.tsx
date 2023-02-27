@@ -34,12 +34,6 @@ export const Header: FunctionComponent<HeaderProps> = (props) => {
 								})}
 							</nav>
 						</div>
-						<div className="header__btns">
-							<div className="header__btns-blue">
-								<button>OK</button>
-							</div>
-							<SocialHeader />
-						</div>
 						<div className="header__contact">
 							<div className="header__contact-mail">
 								<img src="https://img.icons8.com/ios-filled/1x/secured-letter.png" alt="mail" />
@@ -54,6 +48,13 @@ export const Header: FunctionComponent<HeaderProps> = (props) => {
 								</p>
 							</div>
 						</div>
+						<div className="header__btns">
+							<div className="header__btns-blue">
+								<input type='submit' value={'Войти'} />
+							</div>
+							<SocialHeader />
+						</div>
+						
 						
 					</div>
 				</div>
