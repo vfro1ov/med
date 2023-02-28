@@ -33,9 +33,7 @@ header {
 			flex-wrap: nowrap;
 			justify-content: space-between;
 			color: #444444;
-		}
-		nav li {
-			text-decoration: none;
+			list-style: none;
 		}
 	}
 	&__contact {
