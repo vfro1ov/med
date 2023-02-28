@@ -1,5 +1,4 @@
 import { FunctionComponent } from 'react';
-import { Header } from '../Header/Header';
 import './Login.scss';
 
 export const Login: FunctionComponent<LoginProps> = () => {
@@ -7,7 +6,6 @@ export const Login: FunctionComponent<LoginProps> = () => {
 
 	return (
 		<>
-			<Header />
 			<div className="form">
 				<h1>Вход</h1>
 				<div className="form__input">

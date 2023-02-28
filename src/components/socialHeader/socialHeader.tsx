@@ -1,8 +1,7 @@
 import { FunctionComponent } from 'react';
 import './socialHeader.scss';
 
-export const SocialHeader: FunctionComponent<SocialHeaderProps> = (props) => {
-	const {} = props;
+export const SocialHeader: FunctionComponent<SocialHeaderProps> = () => {
 
 	const social = [
 		{ id: 1, name: 'facebook', icon: 'https://img.icons8.com/ios-filled/1x/facebook-new.png', link: 'https://ru-ru.facebook.com/' },

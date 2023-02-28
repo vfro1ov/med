@@ -7,6 +7,7 @@ header {
 	width: 100%;
 	height: 215px;
 	display: flex;
+
 	&__wrap {
 		margin: 0;
 		width: 100%;
@@ -22,6 +23,7 @@ header {
 	&__nav {
 		margin: 0;
 		width: 681px;
+
 		nav {
 			margin-top: 46px;
 			margin-left: 400px;
@@ -32,6 +34,9 @@ header {
 			justify-content: space-between;
 			color: #444444;
 		}
+		nav li {
+			text-decoration: none;
+		}
 	}
 	&__contact {
 		width: 600px;
@@ -41,7 +46,7 @@ header {
 		justify-content: flex-end;
 		margin-right: 20px;
 		margin-top: 60px;
-		
+
 		&-mail {
 			width: 200px;
 			height: 35px;
@@ -51,6 +56,9 @@ header {
 			height: 45px;
 		}
 		&-text {
+		}
+		img {
+			width: 20px;
 		}
 	}
 	&__btns {
@@ -66,6 +74,11 @@ header {
 			border-radius: 50px;
 			height: 31px;
 			color: #fff;
+			text-transform: uppercase;
+			transition: 0.3s;
+		}
+		&-blue input:hover {
+			background: #4442db;
 		}
 	}
 }
