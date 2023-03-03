@@ -3,6 +3,7 @@ import { SocialHeader } from '../socialHeader/socialHeader';
 import './Footer.scss';
 
 export const Footer: FunctionComponent<FooterProps> = () => {
+
 	const footerLinks = [
 		{ header: 'Links', links: ['Home', 'Services', 'Invest'] },
 		{ header: 'About', links: ['Partners', 'Careers', 'Press'] },
@@ -22,16 +23,17 @@ export const Footer: FunctionComponent<FooterProps> = () => {
 						return (
 							<div className="footer__links-item">
 								<h3 key={index}>{footerLinks.header}</h3>
-								<li>{footerLinks.links[0]}</li>
+								{footerLinks.links.map((links) => (
+									<li>{links}</li>
+								))}
+
 								<li>{footerLinks.links[1]}</li>
 							</div>
 						);
 					})}
 					<div className="footer__links-contact">
-						<h3>
-							Our Office
-						</h3>
-							<p>Indonesia Jl. Griya Permata Hijau no D1 Purwomartani Kalasan 543881</p>
+						<h3>Our Office</h3>
+						<p>Indonesia Jl. Griya Permata Hijau no D1 Purwomartani Kalasan 543881</p>
 					</div>
 				</div>
 			</div>
